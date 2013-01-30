@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = "2.0"
+version = "3.0"
 
 setup(name="css.fontawesome",
       version=version,
@@ -23,6 +23,6 @@ setup(name="css.fontawesome",
       entry_points={
           "fanstatic.libraries": [
               "fontawesome = css.fontawesome:library"
-              ],
-          },
+          ],
+      },
       )
