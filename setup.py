@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = "3.2.1"
+version = "4.7.0"
 
 setup(name="css.fontawesome",
       version=version,
@@ -18,7 +18,6 @@ setup(name="css.fontawesome",
       zip_safe=False,
       install_requires=[
           "fanstatic",
-          "js.bootstrap"
       ],
       entry_points={
           "fanstatic.libraries": [
